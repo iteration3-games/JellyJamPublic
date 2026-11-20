@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JellyJam — radio for your own music</title>
-  <meta name="description" content="JellyJam turns your Jellyfin, Plex, DLNA and on-device music, plus podcasts and internet radio, into radio stations you tune with a dial. A full library player is one tap away.">
+  <meta name="description" content="JellyJam turns your Jellyfin, Plex, Google Drive, DLNA and on-device music, plus podcasts and internet radio, into radio stations you tune with a dial. A full library player is one tap away.">
   <meta property="og:title" content="JellyJam — radio for your own music">
   <meta property="og:description" content="Tune a dial across stations built from your own music, podcasts and internet radio. Browse your library when you want to choose.">
   <meta property="og:type" content="website">
@@ -34,16 +34,15 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap">
         <div>
-          <p class="eyebrow">Android &amp; Windows</p>
+          <p class="eyebrow">Android</p>
           <h1 id="hero-title">Your music, <span>on the radio.</span></h1>
           <p class="lead">
             JellyJam turns the music you already own into radio stations. Spin the dial to tune across your
-            Jellyfin, Plex, home network and phone libraries, your favorite podcasts and live internet radio.
+            Jellyfin, Plex, Google Drive, home network and phone libraries, your favorite podcasts and live internet radio.
             When you want to pick the songs yourself, Library mode is one tap away.
           </p>
           <div class="actions">
             <a class="button primary" href="#features">See the features</a>
-            <a class="button" href="https://github.com/iteration3-games/JellyJam">View on GitHub</a>
           </div>
           <p class="note">Coming soon to Google Play. No account required, and nothing about you is collected by us.</p>
         </div>
@@ -79,7 +78,7 @@
           <div class="card">
             <span class="tag">Your servers</span>
             <h3>Brings your music together</h3>
-            <p>Jellyfin, Plex, DLNA media servers and music on your phone, alone or combined into one library.</p>
+            <p>Jellyfin, Plex, Google Drive, DLNA media servers and music on your phone, alone or combined into one library.</p>
           </div>
           <div class="card">
             <span class="tag">Themes</span>
@@ -107,9 +106,8 @@
             <li><strong>Quick setup.</strong> First launch offers popular podcasts, SomaFM channels and internet radio, so you can start listening with no server at all.</li>
           </ul>
         </div>
-        <div class="feature-shots">
-          <div class="phone"><img src="assets/screenshots/radio-dial.jpg" alt="Radio mode tuned to 100.9 with album artwork filling the dial"></div>
-          <div class="phone"><img src="assets/screenshots/radio-podcast.jpg" alt="Radio mode tuned to a podcast station at 89.0 with a red theme"></div>
+        <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/FD0wBRoqBfA" title="JellyJam Radio mode demo" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
       </div>
     </section>
@@ -151,20 +149,12 @@
         <div class="feature">
           <div class="cards">
             <div class="card">
-              <h3>Jellyfin</h3>
-              <p>Sign in to your own Jellyfin server. Secure HTTPS is preferred, and you are asked before using plain HTTP.</p>
+              <h3>Media Servers</h3>
+              <p>Sign in to either a Jellyfin, Plex, or DLNA media server to access your music remotely.</p>
             </div>
             <div class="card">
-              <h3>Plex</h3>
-              <p>Link with a short code at plex.tv. You never type your Plex password into JellyJam.</p>
-            </div>
-            <div class="card">
-              <h3>DLNA</h3>
-              <p>Play from a media server on your home network, such as a NAS or router.</p>
-            </div>
-            <div class="card">
-              <h3>Music on your device</h3>
-              <p>Use songs stored on your phone or in a folder on your PC.</p>
+              <h3>Google Drive</h3>
+              <p>Stream music stored in your own Google Drive, alongside your other sources.</p>
             </div>
             <div class="card">
               <h3>Podcasts</h3>
@@ -216,8 +206,8 @@
             <p>On Android, keep listening with the screen off and control playback from the notification and lock screen.</p>
           </div>
           <div class="card">
-            <h3>Phone and PC</h3>
-            <p>The same app runs on Android phones and as a compact window on Windows.</p>
+            <h3>Choose your shuffle</h3>
+            <p>Change the shuffle algorithm to suit your mood, such as fully random or artist-then-song.</p>
           </div>
           <div class="card">
             <h3>Live spectrum</h3>
@@ -304,7 +294,7 @@
       <span>© iteration3. JellyJam is not affiliated with Jellyfin, Plex or SomaFM.</span>
       <nav aria-label="Footer">
         <a href="privacy.html">Privacy policy</a>
-        <a href="https://github.com/iteration3-games/JellyJam">GitHub</a>
+        
       </nav>
     </div>
   </footer>
