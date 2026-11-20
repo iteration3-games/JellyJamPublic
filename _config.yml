@@ -1,0 +1,5 @@
+title: JellyJam
+description: A radio-style music player for your Jellyfin, Plex, DLNA and on-device music, plus podcasts and internet radio.
+# Only the public site is published; the architecture notes stay in the repository.
+exclude:
+  - architecture

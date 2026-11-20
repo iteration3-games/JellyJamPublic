@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="456" height="456" viewBox="0 0 456 456">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0618" />
+      <stop offset="0.6" stop-color="#140A2E" />
+      <stop offset="1" stop-color="#3A0B4A" />
+    </linearGradient>
+    <clipPath id="round"><rect width="456" height="456" rx="96" /></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="456" height="456" fill="url(#bg)" />
+    <g stroke="#FF2BD6" stroke-opacity="0.35" stroke-width="2" fill="none">
+      <path d="M0 330H456M0 360H456M0 396H456M0 440H456" />
+      <path d="M228 300V456M168 300L40 456M288 300L416 456M108 300L-80 456M348 300L536 456" />
+    </g>
+    <rect x="0" y="296" width="456" height="3" fill="#00F0FF" fill-opacity="0.7" />
+    <g transform="translate(9 0)" fill="none" stroke="#FF2BD6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M138 232C138 140 318 140 318 232Q228 256 138 232Z" fill="#FF2BD6" fill-opacity="0.55" />
+      <path d="M166 248V330M200 252V352M234 254V362M268 252V352M302 248V330M166 264H302M200 284H268" />
+    </g>
+    <g transform="translate(-9 0)" fill="none" stroke="#00F0FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M138 232C138 140 318 140 318 232Q228 256 138 232Z" fill="#00F0FF" fill-opacity="0.55" />
+      <path d="M166 248V330M200 252V352M234 254V362M268 252V352M302 248V330M166 264H302M200 284H268" />
+    </g>
+    <g fill="none" stroke="#F4FBFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M138 232C138 140 318 140 318 232Q228 256 138 232Z" fill="#1A0F3A" fill-opacity="0.85" />
+      <path d="M166 248V330M200 252V352M234 254V362M268 252V352M302 248V330M166 264H302M200 284H268" />
+      <g fill="#F4FBFF" stroke="none">
+        <ellipse cx="156" cy="332" rx="13" ry="8" transform="rotate(-25 156 332)" />
+        <ellipse cx="190" cy="354" rx="13" ry="8" transform="rotate(-25 190 354)" />
+        <ellipse cx="224" cy="364" rx="13" ry="8" transform="rotate(-25 224 364)" />
+        <ellipse cx="258" cy="354" rx="13" ry="8" transform="rotate(-25 258 354)" />
+        <ellipse cx="292" cy="332" rx="13" ry="8" transform="rotate(-25 292 332)" />
+      </g>
+    </g>
+    <g>
+      <rect x="112" y="178" width="120" height="8" fill="#00F0FF" />
+      <rect x="260" y="196" width="104" height="8" fill="#FF2BD6" />
+      <rect x="300" y="300" width="60" height="6" fill="#00F0FF" />
+      <rect x="96" y="322" width="64" height="6" fill="#FF2BD6" />
+    </g>
+  </g>
+</svg>
